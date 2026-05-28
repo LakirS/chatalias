@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Loom / Fabric
+.fabric/
+run/
+remappedSrc/
+
+# Локальные зависимости (скачиваются отдельно, в репозиторий не нужны)
+libs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+out/
+eclipse/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "chatalias",
+  "version": "${version}",
+  "name": "ChatAlias",
+  "description": "Клиент-сайд замены для сообщений в чате. Идеально для модераторов: набираете !r — отправляется \"спам\".",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.chatalias.ChatAliasMod"
+    ],
+    "modmenu": [
+      "com.example.chatalias.gui.ChatAliasModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": ">=3.6.0"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
